@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/fondojuegouno"
+    >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="368dp"
+        android:layout_height="122dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/logoappdos" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_below="@id/logo"
+        android:layout_width="146dp"
+        android:layout_height="116dp"
+        android:src="@drawable/play"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/niños"
+        android:layout_width="388dp"
+        android:layout_height="286dp"
+        android:layout_below="@id/play"
+        android:layout_marginLeft="13dp"
+        android:src="@drawable/inicio2dos"/>
+
+    <ImageView
+        android:id="@+id/info"
+        android:layout_width="60dp"
+        android:layout_height="70dp"
+        android:layout_below="@id/niños"
+        android:layout_marginLeft="340dp"
+        android:layout_marginTop="43dp"
+        android:src="@drawable/infocuatro" />
+
+</RelativeLayout>
